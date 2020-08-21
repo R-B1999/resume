@@ -1,0 +1,61 @@
+header{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.bg{
+	transition: 1s ease;
+	background-color: rgba(0,0,0,.2);
+	border-bottom: solid;
+	border-width: 0px;
+
+}
+
+.bg.scrolled{
+	background-color: black;
+}
+
+.banner{
+	background-image: url('../images/img1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.navbar-brand{
+	color: white;
+}
+
+
+.menu{
+	font-size: 18px !important;
+	color: white !important;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 20px;
+	min-width: 100px;
+	text-align: center;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.menu:hover{
+	color: black !important;
+	background-color: white;
+}
+
+.social{
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.social:hover{
+	font-weight: bold;
+	font-size: 40px;
+	padding: 5px;
+}
